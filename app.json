@@ -1,0 +1,13 @@
+{
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "repository": "https://github.com/ernil/paas-test",
+  "success_url": "/",
+  "scripts": {
+    "postdeploy": "php index.php"
+  },
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php",
+    "SOME_VAR": "some value"
+  }
+}
