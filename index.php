@@ -8,6 +8,8 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 $app = new Application();
 
 $db_url = getenv('DB_URL');
+
+echo $db_url;
 $dbopts = parse_url(getenv($db_url));
 
 $host = 'localhost';
