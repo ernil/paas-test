@@ -1,18 +1,21 @@
 <? 
 
+use Herrera\Pdo\PdoServiceProvider;
+use Silex\Application;
+
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
+
+$app = new Application();
+
+$db_url = getenv('DB_URL');
+$dbopts = parse_url(getenv($db_url));
 
 $host = 'localhost';
 $user = 'ely';
 $pass = '11111';
 
-use Herrera\Pdo\PdoServiceProvider;
-use Silex\Application;
-
-$app = new Application();
-
-$dbopts = parse_url(getenv('DATABASE_URL'));
 print_r($dbopts);
+
 
 $app->register(new Herrera\Pdo\PdoServiceProvider(),
   array(
