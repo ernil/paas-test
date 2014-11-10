@@ -1,3 +1,4 @@
 {
-	"php": "~5.4"	
+	"php": "~5.4",
+	"herrera-io/silex-pdo": "~1.2"
 }
