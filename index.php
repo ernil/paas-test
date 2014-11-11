@@ -15,7 +15,7 @@ $db_url = getenv('DB_URL');
 
 echo $db_url;
 
-$dbopts = parse_url(getenv($db_url));
+$dbopts = parse_url($db_url);
 
 $host = 'localhost';
 $user = 'ely';
