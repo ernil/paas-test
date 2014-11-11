@@ -1,6 +1,6 @@
 {
-	"php": "~5.4",
 	"require": {
+		"php": "5.4",
 		"silex/silex": "~1.1",
 		"herrera-io/silex-pdo": "1.*"
 	}

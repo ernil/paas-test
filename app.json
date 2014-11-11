@@ -8,6 +8,7 @@
   },
   "env": {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php",
-    "DB_URL": "postgres://uuetcetlkpmqae:JHSxuChyIJPEzmModoIsSVTi71@ec2-54-204-38-16.compute-1.amazonaws.com:5432/d40pmg7kv8i8oa"
+    "DB_URL": "postgres://uuetcetlkpmqae:JHSxuChyIJPEzmModoIsSVTi71@ec2-54-204-38-16.compute-1.amazonaws.com:5432/d40pmg7kv8i8oa",
+    "DB_ENV": "HEROKU_POSTGRESQL_MAROON_URL"
   }
 }
