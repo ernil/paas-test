@@ -1,0 +1,29 @@
+{
+  "name": "php test app",
+  "cartridges": ["php-5.3", "mysql-5.1"]
+  "scale": "true",
+  "gear_size": "small",
+  "initial_git_url": ""
+}
+
+
+/* 
+
+Name	Valid Options
+name	
+cartridges	python-3.3; python-2.7; python-2.6; ruby-2.0; ruby-1.9; ruby-1.8; jenkins-1; jbossews-2.0; jbossews-1.0; perl-5.10; php-5.3; php-5.4; jbosseap-6; diy-0.1
+scale	true; false
+gear_size	small; medium
+initial_git_url	URL; empty
+cartridges[][name]	python-3.3; python-2.7; python-2.6; ruby-2.0; ruby-1.9; ruby-1.8; jenkins-1; jbossews-2.0; jbossews-1.0; perl-5.10; php-5.3; php-5.4; jbosseap-6; diy-0.1
+cartridges[][gear_size]	small; medium
+cartridges[][url]	
+environment_variables	
+auto_deploy	true; false
+deployment_type	git; binary
+deployoment_branch	
+keep_depoyments	
+event	make-ha; start; stop; force-stop; restart; scale-up; scale-down; tidy; reload; thread-dump
+owner	User input; @self
+
+*/
